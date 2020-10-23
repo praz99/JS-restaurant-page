@@ -1,9 +1,31 @@
 import './style.css';
-import Navbar from './modules/navbar'
+import * as Navbar from './modules/navbar';
+import { showMenu } from './modules/menu';
+import { showContact } from './modules/contact';
+import { showAbout } from './modules/about';
 
 // const body = document.querySelector('body');
 const content = document.getElementById('content');
 
-Navbar();
+const clearContent = () => {
+  content.innerHTML = '';
+}
 
-content.classList.add('home-page');
+Navbar.insideNavbar();
+
+Navbar.navMenu.addEventListener('click', () => {
+  clearContent();
+  showMenu();
+})
+
+Navbar.navContact.addEventListener('click', () => {
+  clearContent();
+  showContact();
+})
+
+Navbar.navAbout.addEventListener('click', () => {
+  clearContent();
+  showAbout();
+})
+
+// content.classList.add('home-page');

@@ -1,8 +1,8 @@
 const content = document.getElementById('content');
-const showMenu = () => {
+const showAbout = () => {
   const heading = document.createElement('h1');
-  heading.innerText = 'Menu goes here!';
+  heading.innerText = 'About goes here!';
   content.appendChild(heading);
 }
 
-export { showMenu };
+export { showAbout };
