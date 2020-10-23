@@ -1,3 +1,28 @@
-.main-page {
-  
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid red;
+
+  display: flex;
+  align-items: center;
+
+}
+
+.nav-left,
+.nav-right {
+  background-color: blue;
+  width: 50%;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
 }
