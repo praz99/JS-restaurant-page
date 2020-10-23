@@ -11,7 +11,7 @@ const clearContent = () => {
   content.innerHTML = '';
 }
 
-Navbar.navLeft.onclick = () => {
+Navbar.brand.onclick = () => {
   clearContent();
   showHome();
 }

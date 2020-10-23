@@ -6,13 +6,15 @@ const navLinksList = document.createElement('ul');
 const navMenu = document.createElement('li');
 const navContact = document.createElement('li');
 const navAbout = document.createElement('li');
-const navLeft = document.createElement('div');
+const brand = document.createElement('div');
 
 const insideNavbar = () => {
+  const navLeft = document.createElement('div');
   navBar.classList.add('navbar');
-  
+  brand.classList.add('brand');
+  brand.innerText = "RestYourAnt";
+  navLeft.appendChild(brand);
   navLeft.classList.add('nav-left');
-  navLeft.innerText = 'RestYourAnt';
   const navRight = document.createElement('div');
   navRight.classList.add('nav-right');
   navRight.appendChild(navLinks());
@@ -35,8 +37,7 @@ const navLinks = () => {
   navAbout.classList.add('list-item');
   navAbout.innerText = 'about';
   navLinksList.appendChild(navAbout);
-  
   return navLinksList;
 }
 
-export { insideNavbar, navMenu, navContact, navAbout, navLeft, };
+export { insideNavbar, navMenu, navContact, navAbout, brand, };
