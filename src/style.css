@@ -10,6 +10,7 @@
   height: 50px;
   width: 100%;
   border-bottom: 1px solid red;
+  background-color: lightblue;
 
   display: flex;
   align-items: center;
@@ -18,11 +19,19 @@
 
 .nav-left,
 .nav-right {
-  background-color: blue;
   width: 50%;
 }
 
 .nav-right {
   display: flex;
   justify-content: flex-end;
+}
+
+.nav-right .nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-list .list-item {
+  padding: 0 0.5em;
 }
