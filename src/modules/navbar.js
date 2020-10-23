@@ -1,13 +1,16 @@
+import '../styles/navbar.css'
+
 const content = document.getElementById('content');
 const navBar = document.createElement('nav');
 const navLinksList = document.createElement('ul');
 const navMenu = document.createElement('li');
 const navContact = document.createElement('li');
 const navAbout = document.createElement('li');
+const navLeft = document.createElement('div');
 
 const insideNavbar = () => {
   navBar.classList.add('navbar');
-  const navLeft = document.createElement('div');
+  
   navLeft.classList.add('nav-left');
   navLeft.innerText = 'RestYourAnt';
   const navRight = document.createElement('div');
@@ -36,4 +39,4 @@ const navLinks = () => {
   return navLinksList;
 }
 
-export { insideNavbar, navMenu, navContact, navAbout };
+export { insideNavbar, navMenu, navContact, navAbout, navLeft, };

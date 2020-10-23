@@ -1,14 +1,19 @@
-import './style.css';
 import * as Navbar from './modules/navbar';
 import { showMenu } from './modules/menu';
 import { showContact } from './modules/contact';
 import { showAbout } from './modules/about';
+import { showHome } from './modules/home';
 
-// const body = document.querySelector('body');
-const content = document.getElementById('content');
+
+showHome();
 
 const clearContent = () => {
   content.innerHTML = '';
+}
+
+Navbar.navLeft.onclick = () => {
+  clearContent();
+  showHome();
 }
 
 Navbar.insideNavbar();
@@ -27,5 +32,3 @@ Navbar.navAbout.addEventListener('click', () => {
   clearContent();
   showAbout();
 })
-
-// content.classList.add('home-page');
