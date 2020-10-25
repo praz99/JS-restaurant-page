@@ -9,26 +9,26 @@ showHome();
 
 const clearContent = () => {
   content.innerHTML = '';
-}
+};
 
 Navbar.brand.onclick = () => {
   clearContent();
   showHome();
-}
+};
 
 Navbar.insideNavbar();
 
 Navbar.navMenu.addEventListener('click', () => {
   clearContent();
   showMenu();
-})
+});
 
 Navbar.navContact.addEventListener('click', () => {
   clearContent();
   showContact();
-})
+});
 
 Navbar.navAbout.addEventListener('click', () => {
   clearContent();
   showAbout();
-})
+});

@@ -1,0 +1,28 @@
+.menu-container {
+  position: relative;
+  overflow: hidden;
+}
+.menu-container h1 {
+  text-align: center;
+  z-index: 2;
+}
+/* You could use :after - it doesn't really matter */
+.menu-container:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.4;
+  /* background-image: url('../img/bg-menu.jpg'); */
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.menu-items-details-1 {
+  
+}
