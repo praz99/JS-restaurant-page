@@ -4,6 +4,8 @@ import { showContact } from './modules/contact';
 import { showAbout } from './modules/about';
 import { showHome } from './modules/home';
 
+const content = document.getElementById('content');
+
 
 showHome();
 
