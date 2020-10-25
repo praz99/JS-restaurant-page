@@ -10,7 +10,7 @@
   height: 50px;
   width: 100%;
   border-bottom: 1px solid red;
-  background-color: lightblue;
+  background-color: rgba(173, 216, 230, 1);
 
   display: flex;
   align-items: center;
@@ -34,8 +34,10 @@
 
 .nav-list .list-item {
   padding: 0 0.5em;
+  cursor: pointer;
 }
 
 .brand {
   width: fit-content;
+  cursor: pointer;
 }

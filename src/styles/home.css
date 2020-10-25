@@ -21,3 +21,7 @@
   background-position: 50% 0;
   background-size: cover;
 }
+
+.home-welcome h1 {
+  color: yellow;
+}
