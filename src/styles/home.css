@@ -1,3 +1,23 @@
 .home-welcome {
-  color: green;
+  position: relative;
+  background: #626d80;
+  overflow: hidden;
+  height: 92vh;
+  width: 100%;
+}
+
+.home-welcome:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  background-image: url('../img/bg-menu.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
 }
