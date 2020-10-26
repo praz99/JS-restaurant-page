@@ -1,0 +1,38 @@
+{
+  "name": "js-restaurant-page",
+  "version": "1.0.0",
+  "description": "This project is created as an assignment from JavaScript module of Microverse main curriculum. The main purpose of this project is to practice ES6 (class, modules) and webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praz99/JS-restaurant-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praz99/JS-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/praz99/JS-restaurant-page#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^5.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.1.1",
+    "style-loader": "^2.0.0",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0"
+  }
+}
