@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -14,7 +16,7 @@
 
   display: flex;
   align-items: center;
-
+  padding: 0 2em;
 }
 
 .nav-left,
@@ -33,11 +35,19 @@
 }
 
 .nav-list .list-item {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(22 80 130);
   padding: 0 0.5em;
   cursor: pointer;
 }
 
 .brand {
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  font-weight: 900;
   width: fit-content;
   cursor: pointer;
-}
+  color: rgb(22 80 130);
+};

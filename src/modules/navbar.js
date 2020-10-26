@@ -29,7 +29,7 @@ const insideNavbar = () => {
   const navLeft = document.createElement('div');
   navBar.classList.add('navbar');
   brand.classList.add('brand');
-  brand.innerText = 'RestYourAnt';
+  brand.innerText = 'ABC Restaurant';
   navLeft.appendChild(brand);
 
   navLeft.classList.add('nav-left');
