@@ -1,8 +1,8 @@
 import * as Navbar from './modules/navbar';
-import { showMenu } from './modules/menu';
-import { showContact } from './modules/contact';
-import { showAbout } from './modules/about';
-import { showHome } from './modules/home';
+import showMenu from './modules/menu';
+import showContact from './modules/contact';
+import showAbout from './modules/about';
+import showHome from './modules/home';
 
 const content = document.getElementById('content');
 

@@ -18,32 +18,32 @@ const showContact = () => {
   contactItems.classList.add('contact-items');
   contactContainer.appendChild(contactItems);
 
-    const contactItem1 = document.createElement('div');
-    const contactItem2 = document.createElement('div');
-    const contactItem3 = document.createElement('div');
+  const contactItem1 = document.createElement('div');
+  const contactItem2 = document.createElement('div');
+  const contactItem3 = document.createElement('div');
 
-    const contactImage1 = new Image();
-    const contactImage2 = new Image();
-    const contactImage3 = new Image();
+  const contactImage1 = new Image();
+  const contactImage2 = new Image();
+  const contactImage3 = new Image();
 
-    contactImage1.src = ContactItem1;
-    contactImage1.classList.add('contact-image');
-    contactImage2.src = ContactItem2;
-    contactImage2.classList.add('contact-image');
-    contactImage3.src = ContactItem3;
-    contactImage3.classList.add('contact-image');
+  contactImage1.src = ContactItem1;
+  contactImage1.classList.add('contact-image');
+  contactImage2.src = ContactItem2;
+  contactImage2.classList.add('contact-image');
+  contactImage3.src = ContactItem3;
+  contactImage3.classList.add('contact-image');
 
-    contactItem1.classList.add('contact-item');
-    contactItem2.classList.add('contact-item');
-    contactItem3.classList.add('contact-item');
+  contactItem1.classList.add('contact-item');
+  contactItem2.classList.add('contact-item');
+  contactItem3.classList.add('contact-item');
 
-    contactItems.appendChild(contactItem1);
-    contactItems.appendChild(contactItem2);
-    contactItems.appendChild(contactItem3);
+  contactItems.appendChild(contactItem1);
+  contactItems.appendChild(contactItem2);
+  contactItems.appendChild(contactItem3);
 
-    contactItem1.appendChild(contactImage1);
-    contactItem2.appendChild(contactImage2);
-    contactItem3.appendChild(contactImage3);
+  contactItem1.appendChild(contactImage1);
+  contactItem2.appendChild(contactImage2);
+  contactItem3.appendChild(contactImage3);
 };
 
-export { showContact };
+export default showContact;

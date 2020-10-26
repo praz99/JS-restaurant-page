@@ -13,4 +13,4 @@ const showHome = () => {
   name.appendChild(homeHeading);
 };
 
-export { showHome };
+export default showHome;

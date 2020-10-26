@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.home-welcome:before {
+.home-welcome::before {
   content: ' ';
   display: block;
   position: absolute;
