@@ -8,7 +8,8 @@ const showHome = () => {
   content.appendChild(name);
 
   const homeHeading = document.createElement('h1');
-  homeHeading.innerText = 'Welcome!';
+  homeHeading.innerText = `Welcome!
+  ABC Restaurant online`;
   name.appendChild(homeHeading);
 };
 

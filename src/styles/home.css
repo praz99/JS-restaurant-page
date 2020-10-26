@@ -1,6 +1,6 @@
 .home-welcome {
   position: relative;
-  background: #626d80;
+  background: #54565c;
   overflow: hidden;
   height: 92vh;
   width: 100%;
@@ -23,5 +23,8 @@
 }
 
 .home-welcome h1 {
-  color: yellow;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
 }

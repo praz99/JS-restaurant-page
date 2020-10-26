@@ -10,7 +10,7 @@ const showAbout = () => {
   content.appendChild(aboutContainer);
 
   const heading = document.createElement('h1');
-  heading.innerText = 'about';
+  heading.innerText = 'www.abcrestaurant.com';
   aboutContainer.appendChild(heading);
 
   const aboutItems = document.createElement('div');

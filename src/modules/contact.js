@@ -10,7 +10,8 @@ const showContact = () => {
   content.appendChild(contactContainer);
 
   const heading = document.createElement('h1');
-  heading.innerText = 'contact';
+  heading.innerText = `+12 234 578 901
+  contact@abcrestaurant.com`;
   contactContainer.appendChild(heading);
 
   const contactItems = document.createElement('div');
