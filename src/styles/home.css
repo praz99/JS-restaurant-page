@@ -1,6 +1,6 @@
 .home-welcome {
   position: relative;
-  background: #54565c;
+  background: linear-gradient(to bottom, rgb(22, 22, 22), rgb(163, 162, 162) 50%, rgb(22, 22, 22) 100%);
   overflow: hidden;
   height: 92vh;
   width: 100%;
